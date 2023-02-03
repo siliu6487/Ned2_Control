@@ -20,6 +20,13 @@ Git Repo (this one basically covers everything :) created by Matthew Stachyra: h
     - Password "robotics"
     - Updon successful connection, you can see the robot printed out followed by "Welcome to Ned 2 by Niryo".
 
+    
+    - Turn off Ned2: 
+        - Use freemotion button to put the arm to a rested position on the table or else it will fall and hit the table when power off
+        - Type in command to stop the robot’s program: $ sudo service niryo_robot_ros stop
+        - Type in command to exit the ssh connection: $ exit
+        - Turning off Ned2 by holding the power button
+
 2. Use simulation on your own computer
     
     Check List:
