@@ -16,7 +16,7 @@ Git Repo (this one basically covers everything :) created by Matthew Stachyra: h
     Steps:
     - Press the button behind to turn on Ned2 (make sure the security button (big red button) is released)
     - Connect to the hotspot on Ned via WiFi. It will show up as something like "NiryoRobot" followed by some characters. The password is "niryorobot".
-    - Type in command: $ niryo@10.10.10.10 
+    - Type in command: $ ssh niryo@10.10.10.10
     - Password "robotics"
     - Updon successful connection, you can see the robot printed out followed by "Welcome to Ned 2 by Niryo".
 
@@ -33,4 +33,5 @@ Git Repo (this one basically covers everything :) created by Matthew Stachyra: h
 
 
 ## Control Ned2 using Python ROS Wrapper
-https://docs.niryo.com/dev/ros/v4.1.0/en/source/ros_wrapper.html
+- niryo_robot_python_ros_wrapper: https://docs.niryo.com/dev/ros/v4.1.0/en/source/ros_wrapper.html
+- pyniryo: https://docs.niryo.com/dev/pyniryo/v1.1.0/en/source/examples/examples_basics.html
