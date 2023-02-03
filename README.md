@@ -7,16 +7,30 @@ Official documentations: https://docs.niryo.com/dev/ros/v4.1.0/en/index.html
 Git Repo (this one basically covers everything :) created by Matthew Stachyra: https://github.com/tufts-ai-robotics-group/ned2
 
 ## Connect to Ned2
-1. SSH into Ned2
-
+1. SSH into Ned2's Raspberry Pi 4
+    
     Check list:
     - Any computer with a terminal
+    - Ned2 (Physical arm :)
 
     Steps:
-    - Connect to the hotspot on ned via WiFi. It will show up as something like "NiryoRobot" followed by some characters. The password is "niryorobot".
-    - Type command: $ niryo@10.10.10.10 
-    - password "robotics"
-    - You will see the robot printed out followed by "Welcome to Ned 2 by Niryo".
+    - Press the button behind to turn on Ned2 (make sure the security button (big red button) is released)
+    - Connect to the hotspot on Ned via WiFi. It will show up as something like "NiryoRobot" followed by some characters. The password is "niryorobot".
+    - Type in command: $ niryo@10.10.10.10 
+    - Password "robotics"
+    - Updon successful connection, you can see the robot printed out followed by "Welcome to Ned 2 by Niryo".
+
+2. Use simulation on your own computer
+    
+    Check List:
+    - Ubuntu 18.04
+    - ROS melodic
+    - Niryo ROS Stack 
+    (install the Niryo Robot Stack on an Ubuntu 18 OS following https://docs.niryo.com/dev/ros/v4.1.0/en/source/installation/ubuntu_18.html)
+
+    Steps:
+    - 
 
 
-
+## Control Ned2 using Python ROS Wrapper
+https://docs.niryo.com/dev/ros/v4.1.0/en/source/ros_wrapper.html
